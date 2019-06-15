@@ -6,14 +6,12 @@ public class FizzBuzz {
 	
 	private int value;
 	
-	// Constructor, prompt for number input
 	public FizzBuzz() {
-		Scanner in = new Scanner(System.in);
-		System.out.print("Please enter a number: ");
-		this.value = in.nextInt();
-		in.close();
 	}
 	
+	public void setValue(int value) {
+		this.value = value;
+	}
 	
 		
 	// Function for modular return
@@ -34,3 +32,4 @@ public class FizzBuzz {
 	
 
 }
+
